@@ -35,7 +35,7 @@ Finally we have to "call" the function and pass in the argument. Try running the
 ## Shapes in Turtle
 Let's go back and create a function that uses turtle to create a square. Let's call the function "square" and let it accept an input of x. Inside we will have turtle move forward x, turn left 90 degrees, then move forward x again, repeating until we have a square. We should see the following
 
-![image](square1.png)
+![image][def]
 
 Hopefully you were able to do this solo but if not your code should look as it does below
 
@@ -81,3 +81,5 @@ right()
 1. Let's draw 1 rectangle witha width of 100px and a length of 125px.
 2. Draw 1 Triangle with 3 equal sides, length 90px. 
    
+
+[def]: square1.png

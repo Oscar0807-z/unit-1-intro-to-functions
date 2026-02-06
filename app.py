@@ -4,19 +4,16 @@ t = Turtle()
 
 
 
-
 t.shape('turtle')
-""" def triangle(x):
-    for i in range (3):
-        t.forward(125)
-        t.left(120)
-
-triangle(200) """
 def square (x):
-    def addSquares(iRange):
-        length = 25
-        for i in range(iRange):
-            square(5, 90)
-        length += 5
-addSquares(60)
+    for i in range(4):
+        t.forward (100)
+        t.left (90)
+
+def addSquares(60):
+    length = 5
+    for i in range(iRange):
+        square(length)
+        length += 25
+addSquares(5)
 turtle.done()

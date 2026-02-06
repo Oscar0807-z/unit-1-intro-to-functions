@@ -81,8 +81,10 @@ addSquares(5)
 
 1.Make a function to draw 60 squares, turning 5 degress after each square and making each successive square bigger. Start at length 5 and increment 5 units every square. 
 
-![image](spiral1-5.PNG)
+![image][def]
 
 2. Create a function that will draw a 5 pointed star using the angle 144. Then create a function that draw a spiral of stars that looks as follows
    
 ![image](starSpiral.PNG)
+
+[def]: spiral1-5.PNG
