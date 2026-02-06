@@ -7,13 +7,14 @@ t = Turtle()
 t.shape('turtle')
 def square (x):
     for i in range(4):
-        t.forward (100)
+        t.forward (x)
         t.left (90)
 
-def addSquares(60):
-    length = 5
+def addSquares (iRange):
+    length = 25
     for i in range(iRange):
         square(length)
-        length += 25
-addSquares(5)
+        length += 5
+        t.right (5)
+addSquares(60)
 turtle.done()
